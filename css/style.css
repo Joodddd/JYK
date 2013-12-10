@@ -130,10 +130,104 @@ body{
 
 #block {
   position: absolute;
-  background:black;
-  height:60px;
-  width:60px;
-  top:50px;
-  left:80px;
+  height:500px;
+  width:800px;
+  top:0px;
+  left:0px;
+
+  -webkit-animation: ani_pg1 10s infinite;
+  -webkit-animation-delay: 1s;
 }
+
+@-webkit-keyframes ani_pg1 {
+  0% {background:url('../images/pg1/Untitled-1.png')}
+
+  13.99% {background:url('../images/pg1/Untitled-1.png')}
+  14% {background:url('../images/pg1/Untitled-2.png')}
+  
+  27.99% {background:url('../images/pg1/Untitled-2.png')}
+  28% {background:url('../images/pg1/Untitled-3.png')}
+  
+  41.99% {background:url('../images/pg1/Untitled-3.png')}
+  42% {background:url('../images/pg1/Untitled-4.png')}
+  
+  55.99% {background:url('../images/pg1/Untitled-4.png')}
+  56% {background:url('../images/pg1/Untitled-5.png')}
+
+  69.99% {background:url('../images/pg1/Untitled-5.png')}
+  70% {background:url('../images/pg1/Untitled-6.png')}
+  
+  83.99% {background:url('../images/pg1/Untitled-6.png');}
+  84% {background:url('../images/pg1/Untitled-7.png');}
+  
+  97.99% {background:url('../images/pg1/Untitled-7.png');}
+  98% {background:url('../images/pg1/Untitled-1.png');}
+
+}
+
+#block2 {
+  position: absolute;
+  height:500px;
+  width:800px;
+  top:0px;
+  left:0px;
+
+  -webkit-animation: ani_pg2 5s infinite;
+  
+}
+
+@-webkit-keyframes ani_pg2 {
+  0% {background:url('../images/pg1/Untitled-7.png')}
+  19.99% {background:url('../images/pg1/Untitled-7.png')}
+  20% {background:url('../images/pg2/Untitled-1.png')}
+
+  39.99% {background:url('../images/pg2/Untitled-1.png')}
+  40% {background:url('../images/pg2/Untitled-2.png')}
+  
+  59.99% {background:url('../images/pg2/Untitled-2.png')}
+  60% {background:url('../images/pg2/Untitled-3.png')}
+  
+  79.99% {background:url('../images/pg2/Untitled-3.png')}
+  80% {background:url('../images/pg2/Untitled-4.png')}
+  
+  100% {background:url('../images/pg2/Untitled-4.png')}
+
+
+}
+
+#block3 {
+  position: absolute;
+  height:500px;
+  width:800px;
+  top:0px;
+  left:0px;
+
+  -webkit-animation: ani_pg3 10s infinite;
+  
+}
+
+@-webkit-keyframes ani_pg3 {
+  0% {background:url('../images/pg2/Untitled-4.png')}
+
+  13.99% {background:url('../images/pg2/Untitled-4.png')}
+  14% {background:url('../images/pg3/Untitled-1.png')}
+  
+  27.99% {background:url('../images/pg3/Untitled-1.png')}
+  28% {background:url('../images/pg3/Untitled-2.png')}
+  
+  41.99% {background:url('../images/pg3/Untitled-2.png')}
+  42% {background:url('../images/pg3/Untitled-3.png')}
+  
+  55.99% {background:url('../images/pg3/Untitled-3.png')}
+  56% {background:url('../images/pg3/Untitled-4.png')}
+
+  69.99% {background:url('../images/pg3/Untitled-4.png')}
+  70% {background:url('../images/pg3/Untitled-5.png')}
+  
+  83.99% {background:url('../images/pg3/Untitled-5.png');}
+  84% {background:url('../images/pg3/Untitled-6.png');}
+  
+  100% {background:url('../images/pg3/Untitled-6.png');}
+}
+
 

@@ -1,6 +1,7 @@
 var bt1,bt2,bt3;
 var pg1,pg2,pg3;
 
+
 var init = function() {
   bt1 = document.querySelector('#Bt1');
   bt2 = document.querySelector('#Bt2');
@@ -29,5 +30,6 @@ var init = function() {
 
 
 window.onload = function(e) {
+
     init();    
 };
